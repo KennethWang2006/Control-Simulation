@@ -29,18 +29,29 @@ def temperature():
 
 while True:
    print("Temperature: {} degrees C".format(sensor.temperature))
+  
+  # the temperature sensor prints the temperature in degrees celcius
     """
    print(
         "Temperature: {} degrees C".format(temperature())
    )  # Uncomment if using a Raspberry Pi
     """
    print("Accelerometer (m/s^2): {}".format(sensor.acceleration))
+   
+   # the acceleration sensor prints the acceleration in m/s^2 (meter per second squared)
+   
    print("Magnetometer (microteslas): {}".format(sensor.magnetic))
+   
+   # the magnetic sensor prints the magnetic flux density which is equal to (10^-6 tesla)
+   
    print("Gyroscope (rad/sec): {}".format(sensor.gyro))
    print("Euler angle: {}".format(sensor.euler))
    print("Quaternion: {}".format(sensor.quaternion))
    print("Linear acceleration (m/s^2): {}".format(sensor.linear_acceleration))
    print("Gravity (m/s^2): {}".format(sensor.gravity))
+   
+   # the gravity sensor prints the gravitational acceleration in m/s^2 or (meter per second squared)
+   
    print()
    
    time.sleep(1)
