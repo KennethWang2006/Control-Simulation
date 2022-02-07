@@ -13,5 +13,5 @@ while True:
     print((get_voltage(analog_in),))
     time.sleep(0.1)
     
-    input = get_voltage(pin):
+    input = get_voltage(analog_in):
     startrepeat("print('input')", .05)
