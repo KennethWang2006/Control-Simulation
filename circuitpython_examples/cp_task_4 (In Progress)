@@ -1,0 +1,7 @@
+analog_in = AnalogIn(board.A1)
+analog_out = AnalogOut(board.A0)
+
+let Light = analog_in
+analog_out = Light
+
+if Light 
