@@ -1,0 +1,13 @@
+i = (0, 65535, 64)
+
+analog_out = AnalogOut(board.A0)
+analog_out = 0
+analog_out.value = i
+
+
+
+
+        
+       
+        
+       
