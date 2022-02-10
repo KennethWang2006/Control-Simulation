@@ -1,7 +1,16 @@
+import time
+import board
+from analogio import AnalogIn
+
 analog_in = AnalogIn(board.A1)
 analog_out = AnalogOut(board.A0)
+i = (0, 65535, 64)
 
+    
+    
 let Light = analog_in
 analog_out = Light
 
-if Light 
+
+  
+
