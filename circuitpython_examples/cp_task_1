@@ -12,5 +12,5 @@ while True:
     
     * Code Down here
     
-    input = get_voltage(analog_in):
+    input = get_voltage(analog_in)
     startrepeat("print('input')", .05)
