@@ -1,6 +1,6 @@
 import time
 import board
-from analogio import AnalogIn
+from analogio import AnalogIn, AnalogOut
 
 analog_in = AnalogIn(board.A1)
 analog_out = AnalogOut(board.A0)
