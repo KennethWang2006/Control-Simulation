@@ -2,13 +2,10 @@ import time
 import board
 from analogio import AnalogIn, AnalogOut
 
+
 analog_in = AnalogIn(board.A1)
 analog_out = AnalogOut(board.A0)
-i = (0, 65535, 64)
-
     
-
 while True:
-    time.sleep(0.1)
-    Light = analog_in.value
-    analog_out.value = Light
+    analog_out.value = analog_in.value
+    
