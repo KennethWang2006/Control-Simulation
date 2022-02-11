@@ -22,4 +22,3 @@ analog_out = AnalogOut(board.A0)
     
 while True:
     analog_out.value = analog_in.value
-    
