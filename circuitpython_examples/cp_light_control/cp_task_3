@@ -6,6 +6,20 @@ from analogio import AnalogIn, AnalogOut
 analog_in = AnalogIn(board.A1)
 analog_out = AnalogOut(board.A0)
     
+AnalogIn(Board.A1) = light
+while True:
+    analog_out.value = light
+    
+*Same code but without variable
+
+import time
+import board
+from analogio import AnalogIn, AnalogOut
+
+
+analog_in = AnalogIn(board.A1)
+analog_out = AnalogOut(board.A0)
+    
 while True:
     analog_out.value = analog_in.value
     
